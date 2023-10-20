@@ -6,7 +6,7 @@ Repositorio para la materia Inteligencia Artificial Avanzada - 2023 UTN 2C
 1) Se recomienda usar COLAB para correr el modelo
 2) Darle al colab acceso sobre google drive
     
-========= Pasos para la ejecucion del modelo ==========
+========= Pasos para la ejecucion del modelo de la entrega numero 2 ==========
 
 1) Cargar el archivo "Entrega_2_IA2_Grupo2.ipynb" en el colab.
 2) Colocar el archivo "grupo2_entrega2_data.csv" en el drive en la ruta /content/gdrive/My Drive/Entrega1/
@@ -19,3 +19,16 @@ Repositorio para la materia Inteligencia Artificial Avanzada - 2023 UTN 2C
 9) Ejecutar "Mostrar el IPC" para imprimir el resultado obtenido.
 10) Ejecutar "Calcular errores relativos y absolutos" para realizar los calculos de errores.
 11) Ejecutar "Mostrar sumario" para mostrar el resumen de la ejecucion.
+
+========= Pasos para la ejecucion del modelo de la entrega numero 3 ==========
+
+0) Descargar el archivo Entrega3Data.csv
+1) Ejecutar "Cargar librerías a utilizar" para cargar las libraries que se utilizan en el modelo.
+2) Ejecutar "Cargar archivo de datos" y cargar el archivo previamente descargado "Entrega3Data.csv".
+3) Ejecutar "Formatear datos de entrada y de prueba" para cortar el dataset en una parte de entrada para el entrenamiento y otra parte para las pruebas posteriores.
+4) Ejecutar "Normalizar" el cual normaliza la data que vamos a utilizar.
+5) Ejecutar "Adaptar entrada de la funcion" el cual convierte el dataset de entrenamiento en 3 dimensiones, para que pueda ser utilizado por la funcion de LSTM.
+6) Ejecutar "Configuramos el entrenamiento con sus respectivas capas" para configurar el modelo con sus respectivas capas.
+7) Ejecutar "Entrenar" el cual entrena el modelo. Tener en cuenta que la variable learning_rate corresponde al coeficiente de entrenamiento y la variable epochs corresponde a los ciclos de entrenamiento que utilizaremos.
+8) Ejecutar "Calcular errores relativos y absolutos" para realizar los calculos de errores.
+9) Ejecutar "Predecimos" para mostrar la comparacion de valores reales y valores predecidos.
